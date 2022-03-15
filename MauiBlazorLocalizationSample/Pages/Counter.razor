@@ -1,6 +1,6 @@
 ﻿@page "/counter"
 @inject IDialogService DialogService
-
+@inject IStringLocalizer<MyStrings> Localizer
 <h1>Counter</h1>
 
 <p role="status">Current count: @currentCount</p>
@@ -13,7 +13,7 @@
 	private async void IncrementCount()
 	{
 		currentCount++;
-		var result = await DialogService.DisplayConfirm("The count is now...", $"Count: {currentCount} is that OK?",
+		var result = await DialogService.DisplayConfirm(Localizer["CountIsTitle"], Localizer["CountIsMessage", currentCount],
 		"OK", "Give me another number");
 	}
 }

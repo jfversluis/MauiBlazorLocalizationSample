@@ -21,6 +21,8 @@ public static class MauiProgram
 
 		builder.Services.AddSingleton<IDialogService, DialogService>();
 
+		builder.Services.AddLocalization();
+
 		return builder.Build();
 	}
 }

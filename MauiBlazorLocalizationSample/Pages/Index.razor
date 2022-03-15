@@ -1,6 +1,8 @@
 ﻿@page "/"
 
-<h1>Hello, world!</h1>
+@inject IStringLocalizer<MyStrings> Localizer
+
+<h1>@Localizer["HelloWorld"]</h1>
 
 Welcome to your new app.
 
