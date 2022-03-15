@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace MauiBlazorDialogSample;
+namespace MauiBlazorLocalizationSample;
 
 public class Program
 {

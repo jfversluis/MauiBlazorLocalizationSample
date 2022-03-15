@@ -1,7 +1,6 @@
-﻿namespace MauiBlazorDialogSample
+﻿namespace MauiBlazorLocalizationSample;
+
+internal interface IDialogService
 {
-    internal interface IDialogService
-    {
-        Task<bool> DisplayConfirm(string title, string message, string accept, string cancel);
-    }
+    Task<bool> DisplayConfirm(string title, string message, string accept, string cancel);
 }

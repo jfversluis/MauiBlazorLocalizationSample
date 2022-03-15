@@ -1,4 +1,4 @@
-namespace MauiBlazorDialogSample.Data;
+namespace MauiBlazorLocalizationSample.Data;
 
 public class WeatherForecastService
 {

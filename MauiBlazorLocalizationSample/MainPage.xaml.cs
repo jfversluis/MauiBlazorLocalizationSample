@@ -1,4 +1,4 @@
-﻿namespace MauiBlazorDialogSample;
+﻿namespace MauiBlazorLocalizationSample;
 
 public partial class MainPage : ContentPage
 {

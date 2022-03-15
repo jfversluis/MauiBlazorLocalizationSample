@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.WebView.Maui;
-using MauiBlazorDialogSample.Data;
+using MauiBlazorLocalizationSample.Data;
 
-namespace MauiBlazorDialogSample;
+namespace MauiBlazorLocalizationSample;
 
 public static class MauiProgram
 {
